@@ -1,16 +1,18 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { useEffect, useState } from 'react';
+// Import images directly
 import profile1 from '../assets/images/profile1.jpeg';
 import profile2 from '../assets/images/profile2.jpeg';
 import profile3 from '../assets/images/profile3.jpeg';
 import profile4 from '../assets/images/profile4.jpeg';
 
 const profilePhotos = [
-    { id: 1, src: profile1, alt: 'Profile 1' },
-    { id: 2, src: profile2, alt: 'Profile 2' },
-    { id: 3, src: profile3, alt: 'Profile 3' },
-    { id: 4, src: profile4, alt: 'Profile 4' }
+  { id: 1, src: profile1, alt: 'Profile1' },
+  { id: 2, src: profile2, alt: 'Profile2' },
+  { id: 3, src: profile3, alt: 'Profile3' },
+  { id: 4, src: profile4, alt: 'Profile4' }
 ];
+
 
 // Animation variants
 const photoVariants = {
