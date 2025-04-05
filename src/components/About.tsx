@@ -1,11 +1,15 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { useEffect, useState } from 'react';
+import profile1 from '../assets/images/profile1.jpeg';
+import profile2 from '../assets/images/profile2.jpeg';
+import profile3 from '../assets/images/profile3.jpeg';
+import profile4 from '../assets/images/profile4.jpeg';
 
 const profilePhotos = [
-    { id: 1, src: '/profile1.jpeg', alt: 'Jhersonn Cayao professional headshot' },
-    { id: 2, src: '/profile2.jpeg', alt: 'Jhersonn working on laptop' },
-    { id: 3, src: '/profile3.jpeg', alt: 'Jhersonn at tech conference' },
-    { id: 4, src: '/profile4.jpeg', alt: 'Jhersonn team meeting' }
+    { id: 1, src: profile1, alt: 'Profile 1' },
+    { id: 2, src: profile2, alt: 'Profile 2' },
+    { id: 3, src: profile3, alt: 'Profile 3' },
+    { id: 4, src: profile4, alt: 'Profile 4' }
 ];
 
 // Animation variants
