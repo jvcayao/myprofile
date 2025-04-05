@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import "tailwindcss";
+
+
+
+@theme {
+  --color-primary: #0ea5e9;
+  --color-secondary: #1e293b;
+  --color-dark: #0f172a;
+
+  --font-sans: 'Inter', sans-serif;
+  --background-image-radial: 'radial-gradient(var(--tw-gradient-stops))',
+  --background-image-conic: 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+}
+
+
+
+body {
+  font-family: 'Inter', sans-serif;
+  @apply bg-dark text-slate-100;
+}
+
+.glass-effect {
+  background: rgba(15, 23, 42, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.gradient-text {
+  @apply bg-gradient-to-r from-primary to-cyan-400 bg-clip-text text-transparent;
+}
