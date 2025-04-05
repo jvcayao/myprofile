@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://jvcayao.github.io/jvcayao/myprofile",
+  "homepage": "https://jvcayao.github.io/myprofile",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
